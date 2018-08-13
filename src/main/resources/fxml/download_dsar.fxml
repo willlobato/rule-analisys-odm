@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="460.0" prefWidth="392.0" stylesheets="@../css/jfoenix-components.css" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.pupunha.rule.analisys.odm.DownloadDSRController">
+   <children>
+      <JFXTextField fx:id="txtServer" labelFloat="true" layoutX="50.0" layoutY="48.0" prefHeight="26.0" prefWidth="290.0" promptText="RES Server" />
+      <JFXTextField fx:id="txtUsername" labelFloat="true" layoutX="50.0" layoutY="123.0" prefHeight="26.0" prefWidth="290.0" promptText="Username" />
+      <JFXPasswordField fx:id="txtPassword" labelFloat="true" layoutX="50.0" layoutY="198.0" prefHeight="26.0" prefWidth="290.0" promptText="Password" />
+      <JFXButton fx:id="btnConnect" buttonType="RAISED" layoutX="236.0" layoutY="255.0" onAction="#handleActionConnect" prefHeight="38.0" prefWidth="104.0" styleClass="button-raised" text="Connect" />
+      <JFXComboBox fx:id="ruleapp" layoutX="50.0" layoutY="313.0" prefHeight="27.0" prefWidth="172.0" promptText="Ruleapp" />
+      <JFXComboBox fx:id="ruleappVersion" layoutX="246.0" layoutY="313.0" promptText="Version" />
+      <JFXComboBox fx:id="ruleset" layoutX="51.0" layoutY="366.0" prefHeight="27.0" prefWidth="172.0" promptText="Ruleset" />
+      <JFXComboBox fx:id="rulesetVersion" layoutX="247.0" layoutY="366.0" promptText="Version" />
+   </children>
+</AnchorPane>
